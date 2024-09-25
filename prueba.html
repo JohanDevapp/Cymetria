@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>	
+	<meta charset-"UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="Estilo.css">
+	<title>Este es el encabezado</title>
+</head>
+<body>
+	<div class="contenedor"> </div>
+		<header>
+            <h1>Este es el HEADER</h1>
+            <img id=imagen src="/Imagenes/B&W.png" alt="Este es el logo" onmouseover="cambiarImagen()" onmouseout="restaurarImagen()">
+            <script>
+                function cambiarImagen() {
+                    document.getElementById('imagen').src = '/Imagenes/B&W.png';
+                }
+                function restaurarImagen() {
+                    document.getElementById('imagen').src = '/Imagenes/Color.png';
+                }
+            </script>
+		</header>
+		<nav class="inline-block">
+			<h1>Este es el NAV</h1> 
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">portafolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+		<section id="content" class="inline-block">
+			<h1>Este es un SECTION</h1>
+			<article><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></article>
+            <article><p>survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></article>
+            <article><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at sem dolor. Suspendisse faucibus fringilla dui nec posuere. Mauris facilisis mi ac turpis interdum, quis pellentesque mauris varius. Nam id urna eget massa dapibus facilisis vel placerat dui. Sed nulla ligula, congue accumsan dui et, tempus condimentum orci. Maecenas scelerisque, lorem id blandit bibendum, justo turpis iaculis arcu, finibus volutpat erat purus vel eros. Aenean a ipsum iaculis elit varius dapibus. Praesent sit amet pharetra nibh. Nam vitae lacus tempus, pharetra quam ac, suscipit libero. Quisque scelerisque placerat dignissim. Pellentesque non neque dignissim, ullamcorper felis quis, ultricies libero. Duis quis mi a lectus efficitur luctus. Nam euismod tortor nulla, scelerisque iaculis sapien faucibus sed. Integer non neque ac lacus sollicitudin cursus quis id massa. Nullam eget nisi nulla.</p></article>
+        </section>
+		<footer>
+            <h1>Este es el Footer</h1>
+            <img src="/Imagenes/Gov.png" alt="Descripción de la imagen">
+		</footer>
+</body
+</html>
